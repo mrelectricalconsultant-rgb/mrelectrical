@@ -750,6 +750,14 @@ h2 span {
 /* RESPONSIVE */
 
 @media (max-width: 991px) {
+    .about-hero-section {
+        min-height: 60vh;
+    }
+
+    .site-header {
+        margin: 0 15px;
+    }
+    
     .contact-container {
         grid-template-columns: 1fr;
         gap: 55px;
@@ -1007,6 +1015,7 @@ h2 span {
 /* Mobile Screens (Under 767px) */
 @media (max-width: 767px) {
     .hero {
+        min-height: 75vh;
         padding: 110px 16px 60px;
     }
 
