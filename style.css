@@ -10,6 +10,10 @@
     --text-light: #fafafa;
 }
 
+html, body {
+    overflow-x: hidden !important;
+}
+
 body {
     background: #0a0a0a;
     color: #fafafa;
@@ -1015,8 +1019,9 @@ h2 span {
 /* Mobile Screens (Under 767px) */
 @media (max-width: 767px) {
     .hero {
-        min-height: 75vh;
+        min-height: 100vh;
         padding: 110px 16px 60px;
+        background: darkslategray;
     }
 
     .hero-content>h1 {
@@ -1035,7 +1040,8 @@ h2 span {
     }
 
     .section-pad {
-        padding: 60px 16px;
+        padding: 140px 16px 0px 16px;
+        min-height: 90vh;
     }
 
     .intro-copy h2,
